@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+
+            Recomendadas Pela W3C:
+            px, em;
+
+            16px geralmente =1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: solid;
+            /* lighter, normal, bold, bolder*/
+        }
+
+        h1 {
+            /* Shorthand font
+            -font-style -> font-weight -> font-size -> font-family*/
+
+            /*font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas esse quidem magni quam impedit amet quod eum alias dolorum, inventore enim, obcaecati voluptatum aperiam ea at provident neque nostrum! Dolorem.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorum nulla sit pariatur neque aspernatur obcaecati illo minima non velit, ipsam eos maxime molestias distinctio deserunt unde a, nam iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quos obcaecati totam non tempore eos exercitationem voluptatem sed et iste unde aspernatur consequatur in fugiat nemo, ratione explicabo delectus cupiditate?</p>
+    <h2>SubTítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nihil doloremque quibusdam similique, totam fugit? Nostrum architecto saepe minima officia itaque nobis, id consequatur aliquam tempore odit hic pariatur illum?</p>
+</body>
+</html>
