@@ -2,4 +2,15 @@
 
 body {
     background-color: #41D983;
+    text-align: center;
+}
+
+
+nav {
+    background-color: darkgreen;
+    display: inline-block;
+    margin: 30px;
+    padding: 10px 1px;
+    border-radius: 10px;
+    text-align: center;
 }
