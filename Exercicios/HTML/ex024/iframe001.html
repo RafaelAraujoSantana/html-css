@@ -4,13 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style>
+        iframe {
+            width: 400px;
+            height: 400px;
+            border: 1px dashed black;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Testando o uso de um iframe</h1>
-    <p>Acessando o site do 
-        <iframe src="https://www.cursoemvideo.com" frameborder="0">
+    <p>
+        Acessando o site do 
 
+        <!-- Tamanho Padrão de iframe: 350x150 px -->
+
+         <!-- Em caso de predominância do tamanho do Iframe o que vai valer para modoficação sempre será o que esta escrito no <style></style> -->
+
+        <!-- Existe o pârametro da tag scollig no iframe, na qual se estiver em "auto", ele vai scrolar, em "yes", também, já em "no", ele para com a opção, mas em alguns navegadores a ultima opção não funciona. EX: Chrome. -->
+
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500">
+        <a href="https://www.cursoemvideo.com" target="_blank">Curso em Video</a>
         </iframe> 
     para aprender a programar.</p>
+    <p>
+        O site do 
+
+        <iframe src="https://www.google.com.br" frameborder="0" height="500", width="500">
+        <a href="https://www.google.com.br" target="_blank">Google</a>
+        </iframe>
+
+        també é muito legal, pena que não funciona dentro do iframe!
+    </p>
+    <p>
+        O repositório do Guanabara
+
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0">
+        <a href="https://gustavoguanabara.github.io" target="_blank"> no GitHub</a>
+        </iframe>
+
+        também é bem legal!
+    </p>
 </body>
 </html>
